@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T20:07:33+00:00",
+  "generated": "2026-10-13T20:07:35+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -137,6 +137,30 @@
     }
   ],
   "submissions": [
+    {
+      "issue": 16,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/16",
+      "issue_title": "Submission: g1-codegen",
+      "author": "NekrodNIK",
+      "student": "Попов Никита Андреевич",
+      "node": "g1-codegen",
+      "node_valid": true,
+      "pr": {
+        "owner": "NekrodNIK",
+        "repo": "splc",
+        "number": 1,
+        "url": "https://github.com/NekrodNIK/splc/pull/1"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-13T17:28:41Z",
+      "updated_at": "2026-10-13T17:29:28Z",
+      "issue_state": "OPEN"
+    },
     {
       "issue": 2,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/2",
@@ -549,6 +573,11 @@
       }
     },
     "nekrodnik": {
+      "g1-codegen": {
+        "state": "open",
+        "issue": 16,
+        "pr_url": "https://github.com/NekrodNIK/splc/pull/1"
+      },
       "g1-parser": {
         "state": "open",
         "issue": 5,
@@ -578,13 +607,13 @@
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1"
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
         "via": "g1-codegen"
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
