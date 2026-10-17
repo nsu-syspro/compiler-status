@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T09:16:21+00:00",
+  "generated": "2026-10-17T20:06:21+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -163,6 +163,30 @@
       "issue_state": "CLOSED"
     },
     {
+      "issue": 20,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/20",
+      "issue_title": "Submission: gr1 codegen",
+      "author": "EugeneKornev",
+      "student": "Корнев Евгений Георгиевич",
+      "node": "g1-codegen",
+      "node_valid": true,
+      "pr": {
+        "owner": "EugeneKornev",
+        "repo": "compiler-base",
+        "number": 1,
+        "url": "https://github.com/EugeneKornev/compiler-base/pull/1"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-17T13:34:54Z",
+      "updated_at": "2026-10-17T13:35:10Z",
+      "issue_state": "OPEN"
+    },
+    {
       "issue": 16,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/16",
       "issue_title": "Submission: g1-codegen",
@@ -186,6 +210,30 @@
       "created_at": "2026-10-13T17:28:41Z",
       "updated_at": "2026-10-17T07:07:22Z",
       "issue_state": "CLOSED"
+    },
+    {
+      "issue": 19,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/19",
+      "issue_title": "Submission: gr1 codegen",
+      "author": "Trinity-142",
+      "student": "Шарапов Никита Борисович",
+      "node": "g1-codegen",
+      "node_valid": true,
+      "pr": {
+        "owner": "Trinity-142",
+        "repo": "syspro-compiler",
+        "number": 3,
+        "url": "https://github.com/Trinity-142/syspro-compiler/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-17T10:14:14Z",
+      "updated_at": "2026-10-17T10:14:25Z",
+      "issue_state": "OPEN"
     },
     {
       "issue": 2,
@@ -688,13 +736,13 @@
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1"
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
         "via": "g2"
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
@@ -702,6 +750,11 @@
       }
     },
     "trinity-142": {
+      "g1-codegen": {
+        "state": "open",
+        "issue": 19,
+        "pr_url": "https://github.com/Trinity-142/syspro-compiler/pull/3"
+      },
       "g1-parser": {
         "state": "accepted",
         "issue": 4,
