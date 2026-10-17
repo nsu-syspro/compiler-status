@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T20:05:57+00:00",
+  "generated": "2026-10-17T09:16:21+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -138,6 +138,31 @@
   ],
   "submissions": [
     {
+      "issue": 14,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/14",
+      "issue_title": "Submission: grammar1 parser",
+      "author": "EugeneKornev",
+      "student": "Корнев Евгений Георгиевич",
+      "node": "g1-codegen",
+      "node_valid": true,
+      "pr": {
+        "owner": "EugeneKornev",
+        "repo": "compiler-base",
+        "number": 1,
+        "url": "https://github.com/EugeneKornev/compiler-base/pull/1"
+      },
+      "state": "accepted",
+      "labels": [
+        "✅ accepted",
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-07T14:12:24Z",
+      "updated_at": "2026-10-17T06:58:49Z",
+      "issue_state": "CLOSED"
+    },
+    {
       "issue": 16,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/16",
       "issue_title": "Submission: g1-codegen",
@@ -151,15 +176,16 @@
         "number": 1,
         "url": "https://github.com/NekrodNIK/splc/pull/1"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-13T17:28:41Z",
-      "updated_at": "2026-10-13T17:29:28Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T07:07:22Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 2,
@@ -225,15 +251,16 @@
         "number": 1,
         "url": "https://github.com/Kaban41k/syspro-compiler/pull/1"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-15T12:24:31Z",
-      "updated_at": "2026-10-15T12:24:46Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T07:51:48Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 3,
@@ -364,31 +391,6 @@
       "issue_state": "CLOSED"
     },
     {
-      "issue": 14,
-      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/14",
-      "issue_title": "Submission: grammar1 parser",
-      "author": "EugeneKornev",
-      "student": "Корнев Евгений Георгиевич",
-      "node": "g1-parser",
-      "node_valid": true,
-      "pr": {
-        "owner": "EugeneKornev",
-        "repo": "compiler-base",
-        "number": 1,
-        "url": "https://github.com/EugeneKornev/compiler-base/pull/1"
-      },
-      "state": "open",
-      "labels": [
-        "submitted",
-        "needs-triage"
-      ],
-      "identity_ok": true,
-      "problems": [],
-      "created_at": "2026-10-07T14:12:24Z",
-      "updated_at": "2026-10-14T17:07:48Z",
-      "issue_state": "OPEN"
-    },
-    {
       "issue": 18,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/18",
       "issue_title": "Submission: grammar 1 - parser solution",
@@ -402,14 +404,15 @@
         "number": 2,
         "url": "https://github.com/Kaban41k/syspro-compiler/pull/2"
       },
-      "state": "open",
+      "state": "changes-requested",
       "labels": [
+        "🔴 changes-requested",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-15T13:51:55Z",
-      "updated_at": "2026-10-15T13:52:07Z",
+      "updated_at": "2026-10-17T08:07:23Z",
       "issue_state": "OPEN"
     },
     {
@@ -426,15 +429,16 @@
         "number": 1,
         "url": "https://github.com/NekrodNIK/splc/pull/1"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-05T16:25:34Z",
-      "updated_at": "2026-10-05T16:25:46Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T07:07:01Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 4,
@@ -450,15 +454,16 @@
         "number": 2,
         "url": "https://github.com/Trinity-142/syspro-compiler/pull/2"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-05T04:38:28Z",
-      "updated_at": "2026-10-05T04:38:39Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T07:40:16Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 10,
@@ -474,15 +479,16 @@
         "number": 2,
         "url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/2"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-07T07:03:02Z",
-      "updated_at": "2026-10-07T07:03:12Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T06:38:46Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 9,
@@ -498,15 +504,16 @@
         "number": 2,
         "url": "https://github.com/bblcs/sysploc/pull/2"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-06T12:44:21Z",
-      "updated_at": "2026-10-06T12:44:34Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T08:46:04Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 11,
@@ -522,14 +529,15 @@
         "number": 2,
         "url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/2"
       },
-      "state": "open",
+      "state": "changes-requested",
       "labels": [
+        "🔴 changes-requested",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-07T12:01:25Z",
-      "updated_at": "2026-10-07T12:01:38Z",
+      "updated_at": "2026-10-17T07:22:08Z",
       "issue_state": "OPEN"
     },
     {
@@ -546,15 +554,16 @@
         "number": 1,
         "url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/1"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-07T19:07:27Z",
-      "updated_at": "2026-10-07T23:04:42Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T09:15:52Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 7,
@@ -570,33 +579,34 @@
         "number": 2,
         "url": "https://github.com/bo1led-owl/spl-compiler/pull/2"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-06T12:27:01Z",
-      "updated_at": "2026-10-06T12:27:14Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-17T09:01:32Z",
+      "issue_state": "CLOSED"
     }
   ],
   "grid": {
     "kaban41k": {
       "g1-parser": {
-        "state": "open",
+        "state": "changes-requested",
         "issue": 18,
         "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/2"
       },
       "g1-lexer": {
-        "state": "open",
+        "state": "accepted",
         "issue": 17,
         "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/1"
       }
     },
     "bblcs": {
       "g1-parser": {
-        "state": "open",
+        "state": "accepted",
         "issue": 9,
         "pr_url": "https://github.com/bblcs/sysploc/pull/2"
       },
@@ -608,7 +618,7 @@
     },
     "wokzy": {
       "g1-parser": {
-        "state": "open",
+        "state": "accepted",
         "issue": 10,
         "pr_url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/2"
       },
@@ -620,8 +630,8 @@
     },
     "rostyanyandexlyceumcheeeeck": {},
     "eugenekornev": {
-      "g1-parser": {
-        "state": "open",
+      "g1-codegen": {
+        "state": "accepted",
         "issue": 14,
         "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1"
       },
@@ -629,18 +639,30 @@
         "state": "accepted",
         "issue": 13,
         "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1"
+      },
+      "g1-parser": {
+        "state": "accepted",
+        "issue": 14,
+        "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1",
+        "via": "g1-codegen"
       }
     },
     "nekrodnik": {
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 16,
         "pr_url": "https://github.com/NekrodNIK/splc/pull/1"
       },
       "g1-parser": {
-        "state": "open",
+        "state": "accepted",
         "issue": 5,
         "pr_url": "https://github.com/NekrodNIK/splc/pull/1"
+      },
+      "g1-lexer": {
+        "state": "accepted",
+        "issue": 16,
+        "pr_url": "https://github.com/NekrodNIK/splc/pull/1",
+        "via": "g1-codegen"
       }
     },
     "mardaruin": {
@@ -650,14 +672,14 @@
         "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/2"
       },
       "g1-parser": {
-        "state": "open",
+        "state": "changes-requested",
         "issue": 11,
         "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/2"
       }
     },
     "bo1led-owl": {
       "g2": {
-        "state": "open",
+        "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2"
       },
@@ -668,20 +690,20 @@
       },
       "g1-parser": {
         "state": "accepted",
-        "issue": 2,
-        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
-        "via": "g1-codegen"
+        "issue": 7,
+        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
+        "via": "g2"
       },
       "g1-lexer": {
         "state": "accepted",
-        "issue": 2,
-        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
-        "via": "g1-codegen"
+        "issue": 7,
+        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
+        "via": "g2"
       }
     },
     "trinity-142": {
       "g1-parser": {
-        "state": "open",
+        "state": "accepted",
         "issue": 4,
         "pr_url": "https://github.com/Trinity-142/syspro-compiler/pull/2"
       },
@@ -693,9 +715,15 @@
     },
     "whiteevilbro": {
       "g1-parser": {
-        "state": "open",
+        "state": "accepted",
         "issue": 15,
         "pr_url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/1"
+      },
+      "g1-lexer": {
+        "state": "accepted",
+        "issue": 15,
+        "pr_url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/1",
+        "via": "g1-parser"
       }
     }
   }
