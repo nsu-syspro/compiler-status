@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T20:06:21+00:00",
+  "generated": "2026-10-18T04:28:18+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -137,31 +137,6 @@
     }
   ],
   "submissions": [
-    {
-      "issue": 14,
-      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/14",
-      "issue_title": "Submission: grammar1 parser",
-      "author": "EugeneKornev",
-      "student": "Корнев Евгений Георгиевич",
-      "node": "g1-codegen",
-      "node_valid": true,
-      "pr": {
-        "owner": "EugeneKornev",
-        "repo": "compiler-base",
-        "number": 1,
-        "url": "https://github.com/EugeneKornev/compiler-base/pull/1"
-      },
-      "state": "accepted",
-      "labels": [
-        "✅ accepted",
-        "submitted"
-      ],
-      "identity_ok": true,
-      "problems": [],
-      "created_at": "2026-10-07T14:12:24Z",
-      "updated_at": "2026-10-17T06:58:49Z",
-      "issue_state": "CLOSED"
-    },
     {
       "issue": 20,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/20",
@@ -439,6 +414,31 @@
       "issue_state": "CLOSED"
     },
     {
+      "issue": 14,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/14",
+      "issue_title": "Submission: grammar1 parser",
+      "author": "EugeneKornev",
+      "student": "Корнев Евгений Георгиевич",
+      "node": "g1-parser",
+      "node_valid": true,
+      "pr": {
+        "owner": "EugeneKornev",
+        "repo": "compiler-base",
+        "number": 1,
+        "url": "https://github.com/EugeneKornev/compiler-base/pull/1"
+      },
+      "state": "accepted",
+      "labels": [
+        "✅ accepted",
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-07T14:12:24Z",
+      "updated_at": "2026-10-18T04:27:54Z",
+      "issue_state": "CLOSED"
+    },
+    {
       "issue": 18,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/18",
       "issue_title": "Submission: grammar 1 - parser solution",
@@ -679,6 +679,11 @@
     "rostyanyandexlyceumcheeeeck": {},
     "eugenekornev": {
       "g1-codegen": {
+        "state": "open",
+        "issue": 20,
+        "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1"
+      },
+      "g1-parser": {
         "state": "accepted",
         "issue": 14,
         "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1"
@@ -687,12 +692,6 @@
         "state": "accepted",
         "issue": 13,
         "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1"
-      },
-      "g1-parser": {
-        "state": "accepted",
-        "issue": 14,
-        "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1",
-        "via": "g1-codegen"
       }
     },
     "nekrodnik": {
@@ -736,13 +735,13 @@
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1"
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
         "via": "g2"
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
