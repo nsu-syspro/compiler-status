@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T20:06:06+00:00",
+  "generated": "2026-10-19T20:07:33+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -162,6 +162,30 @@
       "issue_state": "OPEN"
     },
     {
+      "issue": 24,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/24",
+      "issue_title": "Submission: grammar 1 - codegen solution",
+      "author": "Kaban41k",
+      "student": "Анищенко Александр Игоревич",
+      "node": "g1-codegen",
+      "node_valid": true,
+      "pr": {
+        "owner": "Kaban41k",
+        "repo": "syspro-compiler",
+        "number": 3,
+        "url": "https://github.com/Kaban41k/syspro-compiler/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-19T12:41:24Z",
+      "updated_at": "2026-10-19T12:41:36Z",
+      "issue_state": "OPEN"
+    },
+    {
       "issue": 16,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/16",
       "issue_title": "Submission: g1-codegen",
@@ -232,6 +256,30 @@
       "problems": [],
       "created_at": "2026-10-18T12:25:41Z",
       "updated_at": "2026-10-18T12:25:55Z",
+      "issue_state": "OPEN"
+    },
+    {
+      "issue": 25,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/25",
+      "issue_title": "Submission: g1 codegen",
+      "author": "bblcs",
+      "student": "Горлач Андрей Викторович",
+      "node": "g1-codegen",
+      "node_valid": true,
+      "pr": {
+        "owner": "bblcs",
+        "repo": "sysploc",
+        "number": 3,
+        "url": "https://github.com/bblcs/sysploc/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-19T15:16:11Z",
+      "updated_at": "2026-10-19T15:16:25Z",
       "issue_state": "OPEN"
     },
     {
@@ -713,6 +761,11 @@
   ],
   "grid": {
     "kaban41k": {
+      "g1-codegen": {
+        "state": "open",
+        "issue": 24,
+        "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/3"
+      },
       "g1-parser": {
         "state": "changes-requested",
         "issue": 18,
@@ -725,6 +778,11 @@
       }
     },
     "bblcs": {
+      "g1-codegen": {
+        "state": "open",
+        "issue": 25,
+        "pr_url": "https://github.com/bblcs/sysploc/pull/3"
+      },
       "g1-parser": {
         "state": "accepted",
         "issue": 9,
