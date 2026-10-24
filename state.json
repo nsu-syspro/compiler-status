@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T20:07:01+00:00",
+  "generated": "2026-10-24T15:21:12+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -151,15 +151,16 @@
         "number": 1,
         "url": "https://github.com/EugeneKornev/compiler-base/pull/1"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-17T13:34:54Z",
-      "updated_at": "2026-10-17T13:35:10Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-24T15:19:50Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 24,
@@ -175,15 +176,16 @@
         "number": 3,
         "url": "https://github.com/Kaban41k/syspro-compiler/pull/3"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-19T12:41:24Z",
-      "updated_at": "2026-10-19T12:41:36Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-24T15:10:39Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 16,
@@ -272,15 +274,16 @@
         "number": 3,
         "url": "https://github.com/bblcs/sysploc/pull/3"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-19T15:16:11Z",
-      "updated_at": "2026-10-19T15:16:25Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-24T15:13:07Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 2,
@@ -572,16 +575,16 @@
         "number": 2,
         "url": "https://github.com/Kaban41k/syspro-compiler/pull/2"
       },
-      "state": "changes-requested",
+      "state": "accepted",
       "labels": [
-        "🔴 changes-requested",
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-15T13:51:55Z",
-      "updated_at": "2026-10-17T08:07:23Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-24T15:08:49Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 5,
@@ -697,16 +700,16 @@
         "number": 2,
         "url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/2"
       },
-      "state": "changes-requested",
+      "state": "accepted",
       "labels": [
-        "🔴 changes-requested",
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-07T12:01:25Z",
-      "updated_at": "2026-10-18T08:14:31Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-10-24T09:31:21Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 15,
@@ -762,12 +765,12 @@
   "grid": {
     "kaban41k": {
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 24,
         "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/3"
       },
       "g1-parser": {
-        "state": "changes-requested",
+        "state": "accepted",
         "issue": 18,
         "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/2"
       },
@@ -779,7 +782,7 @@
     },
     "bblcs": {
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 25,
         "pr_url": "https://github.com/bblcs/sysploc/pull/3"
       },
@@ -814,7 +817,7 @@
     "rostyanyandexlyceumcheeeeck": {},
     "eugenekornev": {
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 20,
         "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/1"
       },
@@ -859,7 +862,7 @@
         "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/2"
       },
       "g1-parser": {
-        "state": "changes-requested",
+        "state": "accepted",
         "issue": 11,
         "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/2"
       }
