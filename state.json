@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T20:04:41+00:00",
+  "generated": "2026-10-31T20:04:06+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -786,6 +786,30 @@
       "created_at": "2026-10-06T12:27:01Z",
       "updated_at": "2026-10-17T09:01:32Z",
       "issue_state": "CLOSED"
+    },
+    {
+      "issue": 27,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/27",
+      "issue_title": "Submission: grammar 3",
+      "author": "bo1led-owl",
+      "student": "Совцов Илья Дмитриевич",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "bo1led-owl",
+        "repo": "spl-compiler",
+        "number": 3,
+        "url": "https://github.com/bo1led-owl/spl-compiler/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-10-31T12:16:53Z",
+      "updated_at": "2026-10-31T12:17:06Z",
+      "issue_state": "OPEN"
     }
   ],
   "grid": {
@@ -899,6 +923,11 @@
       }
     },
     "bo1led-owl": {
+      "g3": {
+        "state": "open",
+        "issue": 27,
+        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3"
+      },
       "g2": {
         "state": "accepted",
         "issue": 7,
@@ -909,13 +938,13 @@
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1"
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
         "via": "g2"
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
