@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T20:04:28+00:00",
+  "generated": "2026-11-07T20:04:06+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -763,6 +763,30 @@
       "issue_state": "OPEN"
     },
     {
+      "issue": 29,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/29",
+      "issue_title": "Submission: Grammar 2",
+      "author": "NekrodNIK",
+      "student": "Попов Никита Андреевич",
+      "node": "g2",
+      "node_valid": true,
+      "pr": {
+        "owner": "NekrodNIK",
+        "repo": "splc",
+        "number": 3,
+        "url": "https://github.com/NekrodNIK/splc/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-07T17:18:03Z",
+      "updated_at": "2026-11-07T17:18:14Z",
+      "issue_state": "OPEN"
+    },
+    {
       "issue": 7,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/7",
       "issue_title": "Submission: grammar 2",
@@ -785,6 +809,30 @@
       "problems": [],
       "created_at": "2026-10-06T12:27:01Z",
       "updated_at": "2026-10-17T09:01:32Z",
+      "issue_state": "CLOSED"
+    },
+    {
+      "issue": 28,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/28",
+      "issue_title": "Submission:",
+      "author": "NekrodNIK",
+      "student": "Попов Никита Андреевич",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "NekrodNIK",
+        "repo": "splc",
+        "number": 3,
+        "url": "https://github.com/NekrodNIK/splc/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-07T17:17:14Z",
+      "updated_at": "2026-11-07T17:17:37Z",
       "issue_state": "CLOSED"
     },
     {
@@ -888,6 +936,16 @@
       }
     },
     "nekrodnik": {
+      "g2": {
+        "state": "open",
+        "issue": 29,
+        "pr_url": "https://github.com/NekrodNIK/splc/pull/3"
+      },
+      "g3": {
+        "state": "open",
+        "issue": 28,
+        "pr_url": "https://github.com/NekrodNIK/splc/pull/3"
+      },
       "g1-codegen": {
         "state": "accepted",
         "issue": 16,
