@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T20:04:06+00:00",
+  "generated": "2026-11-08T20:04:05+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -787,6 +787,30 @@
       "issue_state": "OPEN"
     },
     {
+      "issue": 31,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/31",
+      "issue_title": "Submission: grammar 2",
+      "author": "Wokzy",
+      "student": "Ершов Егор Алексеевич",
+      "node": "g2",
+      "node_valid": true,
+      "pr": {
+        "owner": "Wokzy",
+        "repo": "compiler-base-nsu-syspro",
+        "number": 4,
+        "url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/4"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-08T12:16:29Z",
+      "updated_at": "2026-11-08T12:16:43Z",
+      "issue_state": "OPEN"
+    },
+    {
       "issue": 7,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/7",
       "issue_title": "Submission: grammar 2",
@@ -810,6 +834,30 @@
       "created_at": "2026-10-06T12:27:01Z",
       "updated_at": "2026-10-17T09:01:32Z",
       "issue_state": "CLOSED"
+    },
+    {
+      "issue": 30,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/30",
+      "issue_title": "Submission: grammar 2",
+      "author": "mardaruin",
+      "student": "Рудометова Марина Сергеевна",
+      "node": "g2",
+      "node_valid": true,
+      "pr": {
+        "owner": "mardaruin",
+        "repo": "nsu-syspro-compiler",
+        "number": 3,
+        "url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/3"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-08T08:54:36Z",
+      "updated_at": "2026-11-08T08:54:47Z",
+      "issue_state": "OPEN"
     },
     {
       "issue": 28,
@@ -896,6 +944,11 @@
       }
     },
     "wokzy": {
+      "g2": {
+        "state": "open",
+        "issue": 31,
+        "pr_url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/4"
+      },
       "g1-codegen": {
         "state": "open",
         "issue": 21,
@@ -964,6 +1017,11 @@
       }
     },
     "mardaruin": {
+      "g2": {
+        "state": "open",
+        "issue": 30,
+        "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/3"
+      },
       "g1-codegen": {
         "state": "open",
         "issue": 23,
