@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T20:04:29+00:00",
+  "generated": "2026-11-10T20:04:21+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -759,7 +759,55 @@
         "PR owner 'nsu-syspro' != fork owner 'EugeneKornev'"
       ],
       "created_at": "2026-10-29T04:28:29Z",
-      "updated_at": "2026-10-29T04:28:41Z",
+      "updated_at": "2026-11-10T04:26:24Z",
+      "issue_state": "CLOSED"
+    },
+    {
+      "issue": 36,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/36",
+      "issue_title": "Submission: Grammar 2",
+      "author": "EugeneKornev",
+      "student": "Корнев Евгений Георгиевич",
+      "node": "g2",
+      "node_valid": true,
+      "pr": {
+        "owner": "EugeneKornev",
+        "repo": "compiler-base",
+        "number": 2,
+        "url": "https://github.com/EugeneKornev/compiler-base/pull/2"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-10T04:27:40Z",
+      "updated_at": "2026-11-10T04:27:53Z",
+      "issue_state": "OPEN"
+    },
+    {
+      "issue": 35,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/35",
+      "issue_title": "Submission: grammar 2 - solution",
+      "author": "Kaban41k",
+      "student": "Анищенко Александр Игоревич",
+      "node": "g2",
+      "node_valid": true,
+      "pr": {
+        "owner": "Kaban41k",
+        "repo": "syspro-compiler",
+        "number": 5,
+        "url": "https://github.com/Kaban41k/syspro-compiler/pull/5"
+      },
+      "state": "open",
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-10T03:28:32Z",
+      "updated_at": "2026-11-10T03:28:46Z",
       "issue_state": "OPEN"
     },
     {
@@ -808,7 +856,7 @@
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-09T16:48:11Z",
-      "updated_at": "2026-11-09T16:48:25Z",
+      "updated_at": "2026-11-10T12:43:29Z",
       "issue_state": "OPEN"
     },
     {
@@ -983,6 +1031,11 @@
   ],
   "grid": {
     "kaban41k": {
+      "g2": {
+        "state": "open",
+        "issue": 35,
+        "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/5"
+      },
       "g1-codegen": {
         "state": "accepted",
         "issue": 24,
@@ -1132,13 +1185,13 @@
         "issue": 2,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1"
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
         "via": "g2"
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
