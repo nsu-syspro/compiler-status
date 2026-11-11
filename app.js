@@ -36,7 +36,8 @@ async function main() {
       const c = cells[n.id];
       if (!c) { html += `<td class="st" title="${NOT_SUBMITTED}">⚪</td>`; continue; }
       const icon = ICON[c.state] || "⚪";
-      const tip = c.via ? `${TITLE[c.state]} (via ${c.via})` : (TITLE[c.state] || c.state);
+      const tip = (c.via ? `${TITLE[c.state]} (via ${c.via})`
+                   : (TITLE[c.state] || c.state)) + (c.via_review ? " — from teacher's PR review" : "");
       const links = [];
       if (c.issue) links.push(`<a href="https://github.com/${state.repo}/issues/${c.issue}">issue</a>`);
       if (c.pr_url) links.push(`<a href="${esc(c.pr_url)}">PR</a>`);
