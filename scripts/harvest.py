@@ -19,6 +19,10 @@ state.json shape:
 
 Each submission carries: student handle, node id, state
   (accepted | changes-requested | open), issue/PR numbers+urls, timestamps.
+State precedence: explicit decision label (✅ accepted / 🔴 changes-requested)
+> latest teacher PR review (CHANGES_REQUESTED, or COMMENTED containing
+`suggestion` blocks) > open. The review-derived state is recorded with
+state_source="teacher-review" for transparency.
 Also emits a derived per-(student,node) status map for the grid.
 """
 import json
@@ -35,6 +39,13 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "nsu-syspro/compiler-status")
 LABEL_ACCEPTED = "✅ accepted"
 LABEL_REDO = "🔴 changes-requested"
 STATE_ORDER = {LABEL_ACCEPTED: "accepted", LABEL_REDO: "changes-requested"}
+
+# Derive submission state from the teacher's PR reviews. Students' fork PRs
+# don't grant the teacher write access, so "Request changes" reviews are often
+# impossible there — the teacher's verdict is expressed as a regular review
+# containing GitHub "suggest changes" blocks. The latest such review counts as
+# changes-requested unless an explicit issue label overrides it.
+TEACHER_REVIEWER = os.environ.get("TEACHER_REVIEWER", "liontiger23")
 
 SECTION_RE = re.compile(r"^### (.+)$", re.MULTILINE)
 
@@ -70,6 +81,39 @@ def pick_state(labels: list[str]) -> str:
         if lab in labels:
             return state
     return "open"
+
+
+def teacher_review_state(pr: dict | None, token: str | None) -> tuple[str, str | None]:
+    """Latest teacher-authored review on a PR -> (derived state, raw review state).
+
+    Returns ("", None) when there is nothing to derive from.
+    Mapping:
+      CHANGES_REQUESTED                     -> changes-requested
+      COMMENTED with ```suggestion blocks   -> changes-requested
+      APPROVED / COMMENTED (no suggestions) -> nothing (label decides)
+    """
+    if pr is None or not token:
+        return "", None
+    import subprocess
+
+    r = subprocess.run(
+        ["gh", "api",
+         f"repos/{pr['owner']}/{pr['repo']}/pulls/{pr['number']}/reviews",
+         "--jq", f"[.[] | select(.user.login == \"{TEACHER_REVIEWER}\")] | last | {{state: .state, body: .body}}"],
+        capture_output=True, text=True,
+        env={**os.environ, "GH_TOKEN": token},
+    )
+    if r.returncode != 0 or not r.stdout.strip():
+        return "", None
+    review = json.loads(r.stdout)
+    if not review:
+        return "", None
+    state = review.get("state", "")
+    if state == "CHANGES_REQUESTED":
+        return "changes-requested", state
+    if state == "COMMENTED" and "```suggestion" in (review.get("body") or ""):
+        return "changes-requested", state
+    return "", state
 
 
 def load_students(path: Path) -> dict:
@@ -150,6 +194,13 @@ def main() -> int:
                 problems.append(f"PR owner '{pr[0]}' != fork owner '{fork_owner}'")
 
         labels = [l["name"] if isinstance(l, dict) else l for l in issue.get("labels", [])]
+        label_state = pick_state(labels)
+        derived, review_raw = ("", None)
+        if label_state == "open":
+            derived, review_raw = teacher_review_state(
+                {"owner": pr[0], "repo": pr[1], "number": pr[2]} if pr else None,
+                token,
+            )
         submissions.append({
             "issue": issue["number"],
             "issue_url": issue["url"],
@@ -160,7 +211,10 @@ def main() -> int:
             "node_valid": node is not None,
             "pr": {"owner": pr[0], "repo": pr[1], "number": pr[2],
                    "url": pr_raw} if pr else None,
-            "state": pick_state(labels),
+            "state": label_state if label_state != "open" else (derived or "open"),
+            "state_source": "label" if label_state != "open" else
+                            ("teacher-review" if derived else "default"),
+            "teacher_review": review_raw,
             "labels": labels,
             "identity_ok": not problems,
             "problems": problems,
@@ -181,7 +235,8 @@ def main() -> int:
         cur = grid[handle].get(s["node"])
         if cur is None or rank[s["state"]] >= rank[cur["state"]]:
             grid[handle][s["node"]] = {"state": s["state"], "issue": s["issue"],
-                                       "pr_url": s["pr"]["url"] if s["pr"] else None}
+                                       "pr_url": s["pr"]["url"] if s["pr"] else None,
+                                       "via_review": s.get("state_source") == "teacher-review"}
 
     # Cascade: accepting the most-advanced milestone of a submission chain
     # accepts all its `requires` ancestors too (students submit one issue per
