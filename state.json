@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T20:04:21+00:00",
+  "generated": "2026-11-11T02:48:30+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -226,15 +226,16 @@
         "number": 3,
         "url": "https://github.com/Trinity-142/syspro-compiler/pull/3"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-17T10:14:14Z",
-      "updated_at": "2026-10-17T10:14:25Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-11T02:45:30Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 21,
@@ -250,15 +251,16 @@
         "number": 3,
         "url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/3"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-18T12:25:41Z",
-      "updated_at": "2026-10-18T12:25:55Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-11T02:10:06Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 25,
@@ -324,15 +326,16 @@
         "number": 3,
         "url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/3"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-18T14:38:09Z",
-      "updated_at": "2026-10-18T14:38:20Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-11T02:25:26Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 22,
@@ -348,15 +351,16 @@
         "number": 1,
         "url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/1"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-18T14:31:09Z",
-      "updated_at": "2026-10-21T03:53:59Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-11T02:30:28Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 13,
@@ -848,16 +852,16 @@
         "number": 4,
         "url": "https://github.com/Trinity-142/syspro-compiler/pull/4"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
-        "submitted",
-        "needs-triage"
+        "✅ accepted",
+        "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-09T16:48:11Z",
-      "updated_at": "2026-11-10T12:43:29Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-11T02:47:50Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 31,
@@ -946,15 +950,16 @@
         "number": 3,
         "url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/3"
       },
-      "state": "open",
+      "state": "accepted",
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-08T08:54:36Z",
-      "updated_at": "2026-11-08T08:54:47Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-11T02:25:31Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 34,
@@ -1081,7 +1086,7 @@
         "pr_url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/4"
       },
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 21,
         "pr_url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/3"
       },
@@ -1149,12 +1154,12 @@
     },
     "mardaruin": {
       "g2": {
-        "state": "open",
+        "state": "accepted",
         "issue": 30,
         "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/3"
       },
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 23,
         "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/3"
       },
@@ -1200,12 +1205,12 @@
     },
     "trinity-142": {
       "g2": {
-        "state": "open",
+        "state": "accepted",
         "issue": 33,
         "pr_url": "https://github.com/Trinity-142/syspro-compiler/pull/4"
       },
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 19,
         "pr_url": "https://github.com/Trinity-142/syspro-compiler/pull/3"
       },
@@ -1227,7 +1232,7 @@
         "pr_url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/2"
       },
       "g1-codegen": {
-        "state": "open",
+        "state": "accepted",
         "issue": 22,
         "pr_url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/1"
       },
@@ -1238,9 +1243,9 @@
       },
       "g1-lexer": {
         "state": "accepted",
-        "issue": 15,
+        "issue": 22,
         "pr_url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/1",
-        "via": "g1-parser"
+        "via": "g1-codegen"
       }
     }
   }
