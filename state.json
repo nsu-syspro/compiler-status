@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T03:04:56+00:00",
+  "generated": "2026-11-11T03:09:30+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -1290,13 +1290,13 @@
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
         "via_review": false
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
         "via": "g2"
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 7,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
