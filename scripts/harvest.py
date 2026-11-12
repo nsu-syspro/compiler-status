@@ -236,6 +236,12 @@ def main() -> int:
         handle = (s["author"] or "").lower()
         if handle not in grid or s["node"] not in nodes:
             continue
+        # A closed issue without a decision label is a superseded/withdrawn
+        # submission (student closed and resubmitted) — it must not represent
+        # the node in the grid. Closed + accepted/changes-requested stays:
+        # that's the normal "reviewed, labeled, closed" flow.
+        if s["issue_state"] == "CLOSED" and s["state"] == "open":
+            continue
         cand = {"state": s["state"], "issue": s["issue"],
                 "pr_url": s["pr"]["url"] if s["pr"] else None,
                 "via_review": s.get("state_source") == "teacher-review",
