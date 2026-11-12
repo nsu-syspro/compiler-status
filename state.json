@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T20:04:46+00:00",
+  "generated": "2026-11-12T06:13:27+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -830,17 +830,18 @@
         "number": 2,
         "url": "https://github.com/EugeneKornev/compiler-base/pull/2"
       },
-      "state": "open",
-      "state_source": "default",
+      "state": "accepted",
+      "state_source": "label",
       "teacher_review": null,
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-10T04:27:40Z",
-      "updated_at": "2026-11-10T04:27:53Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-12T06:12:31Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 35,
@@ -856,17 +857,18 @@
         "number": 5,
         "url": "https://github.com/Kaban41k/syspro-compiler/pull/5"
       },
-      "state": "open",
-      "state_source": "default",
+      "state": "accepted",
+      "state_source": "label",
       "teacher_review": null,
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-10T03:28:32Z",
-      "updated_at": "2026-11-10T03:28:46Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-12T05:56:23Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 29,
@@ -961,17 +963,18 @@
         "number": 4,
         "url": "https://github.com/bblcs/sysploc/pull/4"
       },
-      "state": "open",
-      "state_source": "default",
+      "state": "accepted",
+      "state_source": "label",
       "teacher_review": null,
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-09T14:48:54Z",
-      "updated_at": "2026-11-09T14:49:06Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-12T06:02:18Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 7,
@@ -1094,23 +1097,24 @@
         "number": 3,
         "url": "https://github.com/bo1led-owl/spl-compiler/pull/3"
       },
-      "state": "open",
-      "state_source": "default",
+      "state": "accepted",
+      "state_source": "label",
       "teacher_review": null,
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-10-31T12:16:53Z",
-      "updated_at": "2026-10-31T12:17:06Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-12T05:50:41Z",
+      "issue_state": "CLOSED"
     }
   ],
   "grid": {
     "kaban41k": {
       "g2": {
-        "state": "open",
+        "state": "accepted",
         "issue": 35,
         "pr_url": "https://github.com/Kaban41k/syspro-compiler/pull/5",
         "via_review": false
@@ -1136,7 +1140,7 @@
     },
     "bblcs": {
       "g2": {
-        "state": "open",
+        "state": "accepted",
         "issue": 32,
         "pr_url": "https://github.com/bblcs/sysploc/pull/4",
         "via_review": false
@@ -1189,9 +1193,9 @@
     "rostyanyandexlyceumcheeeeck": {},
     "eugenekornev": {
       "g2": {
-        "state": "open",
-        "issue": 26,
-        "pr_url": "https://github.com/nsu-syspro/compiler-base/pull/17",
+        "state": "accepted",
+        "issue": 36,
+        "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/2",
         "via_review": false
       },
       "g1-codegen": {
@@ -1242,7 +1246,8 @@
         "state": "accepted",
         "issue": 16,
         "pr_url": "https://github.com/NekrodNIK/splc/pull/1",
-        "via": "g1-codegen"
+        "via": "g1-codegen",
+        "via_review": false
       }
     },
     "mardaruin": {
@@ -1273,7 +1278,7 @@
     },
     "bo1led-owl": {
       "g3": {
-        "state": "open",
+        "state": "accepted",
         "issue": 27,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
         "via_review": false
@@ -1292,15 +1297,17 @@
       },
       "g1-parser": {
         "state": "accepted",
-        "issue": 7,
-        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
-        "via": "g2"
+        "issue": 27,
+        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
+        "via": "g3",
+        "via_review": false
       },
       "g1-lexer": {
         "state": "accepted",
-        "issue": 7,
-        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/2",
-        "via": "g2"
+        "issue": 27,
+        "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
+        "via": "g3",
+        "via_review": false
       }
     },
     "trinity-142": {
@@ -1352,7 +1359,8 @@
         "state": "accepted",
         "issue": 34,
         "pr_url": "https://github.com/whiteevilbro/compiler-sysprolang/pull/2",
-        "via": "g2"
+        "via": "g2",
+        "via_review": false
       }
     }
   }
