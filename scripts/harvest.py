@@ -224,19 +224,30 @@ def main() -> int:
         })
 
     # Derive per-(student, node) grid status.
-    # Direct submissions first: best state per node wins
-    # (accepted > changes-requested > open; latest issue wins among equals).
+    # Best candidate per node wins: state rank first (accepted >
+    # changes-requested > open); among equal ranks prefer an OPEN issue over a
+    # closed one (closed + unaccepted = superseded submission, e.g. a student
+    # closing #26 and resubmitting as #36), then the latest issue number.
+    # gh issue list returns issues newest-first, so an explicit issue-number
+    # tiebreak is required — relying on iteration order picks the oldest.
     rank = {"accepted": 2, "changes-requested": 1, "open": 0}
     grid = {handle: {} for handle in students}
     for s in submissions:
         handle = (s["author"] or "").lower()
         if handle not in grid or s["node"] not in nodes:
             continue
+        cand = {"state": s["state"], "issue": s["issue"],
+                "pr_url": s["pr"]["url"] if s["pr"] else None,
+                "via_review": s.get("state_source") == "teacher-review",
+                "_rank": (rank[s["state"]],
+                          1 if s["issue_state"] == "OPEN" else 0,
+                          s["issue"])}
         cur = grid[handle].get(s["node"])
-        if cur is None or rank[s["state"]] >= rank[cur["state"]]:
-            grid[handle][s["node"]] = {"state": s["state"], "issue": s["issue"],
-                                       "pr_url": s["pr"]["url"] if s["pr"] else None,
-                                       "via_review": s.get("state_source") == "teacher-review"}
+        if cur is None or cand["_rank"] > cur["_rank"]:
+            grid[handle][s["node"]] = cand
+    for g in grid.values():
+        for c in g.values():
+            c.pop("_rank", None)
 
     # Cascade: accepting the most-advanced milestone of a submission chain
     # accepts all its `requires` ancestors too (students submit one issue per
@@ -262,7 +273,8 @@ def main() -> int:
                 # but never overwrites a direct accepted/changes-requested
                 if cur is None or cur["state"] == "open":
                     cells[anc] = {"state": "accepted", "issue": c["issue"],
-                                  "pr_url": c["pr_url"], "via": nid}
+                                  "pr_url": c["pr_url"], "via": nid,
+                                  "via_review": c.get("via_review", False)}
 
     state = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
