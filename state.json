@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T20:04:27+00:00",
+  "generated": "2026-11-17T20:04:44+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -938,17 +938,18 @@
         "number": 4,
         "url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/4"
       },
-      "state": "changes-requested",
-      "state_source": "teacher-review",
-      "teacher_review": "CHANGES_REQUESTED",
+      "state": "accepted",
+      "state_source": "label",
+      "teacher_review": null,
       "labels": [
+        "✅ accepted",
         "submitted"
       ],
       "identity_ok": true,
       "problems": [],
       "created_at": "2026-11-08T12:16:29Z",
-      "updated_at": "2026-11-08T12:16:43Z",
-      "issue_state": "OPEN"
+      "updated_at": "2026-11-17T11:13:38Z",
+      "issue_state": "CLOSED"
     },
     {
       "issue": 32,
@@ -1193,10 +1194,10 @@
     },
     "wokzy": {
       "g2": {
-        "state": "changes-requested",
+        "state": "accepted",
         "issue": 31,
         "pr_url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/4",
-        "via_review": true
+        "via_review": false
       },
       "g1-codegen": {
         "state": "accepted",
@@ -1322,14 +1323,14 @@
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
         "via_review": false
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 27,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
         "via": "g3",
         "via_review": false
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 27,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
