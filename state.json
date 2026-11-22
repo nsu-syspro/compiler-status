@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T20:04:02+00:00",
+  "generated": "2026-11-22T20:04:24+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -1060,6 +1060,32 @@
       "issue_state": "CLOSED"
     },
     {
+      "issue": 38,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/38",
+      "issue_title": "Submission: Grammar 3",
+      "author": "EugeneKornev",
+      "student": "Корнев Евгений Георгиевич",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "EugeneKornev",
+        "repo": "compiler-base",
+        "number": 3,
+        "url": "https://github.com/EugeneKornev/compiler-base/pull/3"
+      },
+      "state": "open",
+      "state_source": "default",
+      "teacher_review": null,
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-22T09:16:44Z",
+      "updated_at": "2026-11-22T09:16:57Z",
+      "issue_state": "OPEN"
+    },
+    {
       "issue": 28,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/28",
       "issue_title": "Submission:",
@@ -1220,6 +1246,12 @@
     },
     "rostyanyandexlyceumcheeeeck": {},
     "eugenekornev": {
+      "g3": {
+        "state": "open",
+        "issue": 38,
+        "pr_url": "https://github.com/EugeneKornev/compiler-base/pull/3",
+        "via_review": false
+      },
       "g2": {
         "state": "accepted",
         "issue": 36,
@@ -1323,14 +1355,14 @@
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/1",
         "via_review": false
       },
-      "g1-lexer": {
+      "g1-parser": {
         "state": "accepted",
         "issue": 27,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
         "via": "g3",
         "via_review": false
       },
-      "g1-parser": {
+      "g1-lexer": {
         "state": "accepted",
         "issue": 27,
         "pr_url": "https://github.com/bo1led-owl/spl-compiler/pull/3",
