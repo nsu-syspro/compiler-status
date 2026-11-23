@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T20:04:24+00:00",
+  "generated": "2026-11-23T20:04:11+00:00",
   "repo": "nsu-syspro/compiler-status",
   "nodes": [
     {
@@ -1138,6 +1138,84 @@
       "issue_state": "OPEN"
     },
     {
+      "issue": 40,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/40",
+      "issue_title": "Submission: Grammar 3",
+      "author": "Trinity-142",
+      "student": "Шарапов Никита Борисович",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "Trinity-142",
+        "repo": "syspro-compiler",
+        "number": 6,
+        "url": "https://github.com/Trinity-142/syspro-compiler/pull/6"
+      },
+      "state": "open",
+      "state_source": "default",
+      "teacher_review": null,
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-23T12:19:04Z",
+      "updated_at": "2026-11-23T12:19:16Z",
+      "issue_state": "OPEN"
+    },
+    {
+      "issue": 41,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/41",
+      "issue_title": "Submission: Grammar 3",
+      "author": "Wokzy",
+      "student": "Ершов Егор Алексеевич",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "Wokzy",
+        "repo": "compiler-base-nsu-syspro",
+        "number": 5,
+        "url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/5"
+      },
+      "state": "open",
+      "state_source": "default",
+      "teacher_review": null,
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-23T16:58:02Z",
+      "updated_at": "2026-11-23T16:58:18Z",
+      "issue_state": "OPEN"
+    },
+    {
+      "issue": 42,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/42",
+      "issue_title": "Submission: g3",
+      "author": "bblcs",
+      "student": "Горлач Андрей Викторович",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "bblcs",
+        "repo": "sysploc",
+        "number": 5,
+        "url": "https://github.com/bblcs/sysploc/pull/5"
+      },
+      "state": "open",
+      "state_source": "default",
+      "teacher_review": null,
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-23T16:59:45Z",
+      "updated_at": "2026-11-23T17:12:42Z",
+      "issue_state": "OPEN"
+    },
+    {
       "issue": 27,
       "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/27",
       "issue_title": "Submission: grammar 3",
@@ -1163,6 +1241,32 @@
       "created_at": "2026-10-31T12:16:53Z",
       "updated_at": "2026-11-12T05:50:41Z",
       "issue_state": "CLOSED"
+    },
+    {
+      "issue": 39,
+      "issue_url": "https://github.com/nsu-syspro/compiler-status/issues/39",
+      "issue_title": "Submission: Grammar 3",
+      "author": "mardaruin",
+      "student": "Рудометова Марина Сергеевна",
+      "node": "g3",
+      "node_valid": true,
+      "pr": {
+        "owner": "mardaruin",
+        "repo": "nsu-syspro-compiler",
+        "number": 4,
+        "url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/4"
+      },
+      "state": "open",
+      "state_source": "default",
+      "teacher_review": null,
+      "labels": [
+        "submitted"
+      ],
+      "identity_ok": true,
+      "problems": [],
+      "created_at": "2026-11-23T11:08:59Z",
+      "updated_at": "2026-11-23T11:09:14Z",
+      "issue_state": "OPEN"
     }
   ],
   "grid": {
@@ -1193,6 +1297,12 @@
       }
     },
     "bblcs": {
+      "g3": {
+        "state": "open",
+        "issue": 42,
+        "pr_url": "https://github.com/bblcs/sysploc/pull/5",
+        "via_review": false
+      },
       "g2": {
         "state": "accepted",
         "issue": 32,
@@ -1219,6 +1329,12 @@
       }
     },
     "wokzy": {
+      "g3": {
+        "state": "open",
+        "issue": 41,
+        "pr_url": "https://github.com/Wokzy/compiler-base-nsu-syspro/pull/5",
+        "via_review": false
+      },
       "g2": {
         "state": "accepted",
         "issue": 31,
@@ -1311,6 +1427,12 @@
       }
     },
     "mardaruin": {
+      "g3": {
+        "state": "open",
+        "issue": 39,
+        "pr_url": "https://github.com/mardaruin/nsu-syspro-compiler/pull/4",
+        "via_review": false
+      },
       "g2": {
         "state": "accepted",
         "issue": 30,
@@ -1371,6 +1493,12 @@
       }
     },
     "trinity-142": {
+      "g3": {
+        "state": "open",
+        "issue": 40,
+        "pr_url": "https://github.com/Trinity-142/syspro-compiler/pull/6",
+        "via_review": false
+      },
       "g2": {
         "state": "accepted",
         "issue": 33,
